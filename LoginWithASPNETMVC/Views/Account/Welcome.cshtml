@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+</head>
+<body>
+    <h2>WELCOME   </h2>
+    @using (Html.BeginForm("Logout", "Welcome"))
+    {
+<tr>
+    <td>&nbsp;</td>
+    <td><input type="submit" value="Logout" /></td>
+</tr>
+    }
+</body>
+</html>
